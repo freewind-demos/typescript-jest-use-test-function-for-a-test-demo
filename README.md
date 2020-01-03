@@ -1,7 +1,15 @@
-TypeScript Jest Demo
+TypeScript Jest Use "test" Function For a Test Demo
 ===========================
 
-使用typescript就需要在`jest.config.js`中使用`ts-jest`作为`preset`
+可以使用： 
+
+```
+test('test something', () => {
+  expect(1+1).toEqual(2)
+})
+```
+
+来写测试
 
 ```
 npm install
